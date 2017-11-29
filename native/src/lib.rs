@@ -2,7 +2,7 @@
 extern crate neon;
 extern crate num_cpus;
 
-// use neon::vm::{Call, JsResult};
+use neon::vm::{Call, JsResult};
 use neon::js::JsNumber;
 
 fn threading_hint(call: Call) -> JsResult<JsNumber> {
